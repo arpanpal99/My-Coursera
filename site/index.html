@@ -6,9 +6,19 @@
 </head>
 <body>
 	<header>I'll keep updating this page with whatever I learn regarding HTML. This will keep a decent track.</header>
-		<h1><B><U>My Learning Progress with Coursera</U></B></h1>
-			<nav>Nav Tag: Contains links to different parts of the page.</nav>
-			<h2>1. <U>Git Commands in CMD:</U></h2>
+		<h1 id = "top"><B><U>My Learning Progress with Coursera</U></B></h1>
+			<nav>Nav Tag: Contains links to different parts of the page.
+				<ol>
+					<li><a href="#Heading1">GIT Commands in CMD</a></li>
+					<li><a href="#Heading2">Browser Sync</a></li>
+					<li><a href="#Heading3">DIV and SPAN elemets</a></li>
+					<li><a href="#Heading4">Semantic Tags</a></li>
+					<li><a href="#Heading5">Lists</a></li>
+					<li><a href="#Heading6">Character Entity Reference</a></li>
+					<li><a href="#Heading7">Creating Links</a></li>
+				</ol>
+			</nav>
+			<h2 id = "Heading1">1. <U>Git Commands in CMD:</U></h2>
 			<ul>
 				<li>git --version</li>
 				<li>After installing nodeJS:
@@ -24,15 +34,23 @@
 				<li>git status</li>
 				<li>git push <I>(Because the changes made in local folder needs to be updated in the remote server as well)</I></li>
 			</ul>
-			<h2>2. <U>Browser Sync:</U></h2>
+			How to update the local HTML files in the remote server?
+			<ol>
+				<li>git status</li>
+				<li>git add .</li>
+				<li>git push</li>
+				<li>git status</li>
+			</ol>
+			<a href="#top">Back to TOP</a>
+			<h2 id = "Heading2">2. <U>Browser Sync:</U></h2>
 				Here's how I'm updating the modifications I've made in Sublime Text.
 				<ul>
 					<li>npm install -g browser-sync</li>
 					<li>browser-sync --version</li>
 					<li>browser-sync start --server --directory --files "*" <I>(To start serving all the directories under "My-Coursera")</I></li>
 				</ul>
-				<div>CMD: </div>
-			<h2>3. <U>Div and Span elements:</U></h2>
+				<a href="#top">Back to TOP</a>
+			<h2 id = "Heading3">3. <U>Div and Span elements:</U></h2>
 				<h3>a. Block Level Elements (Roughly &quot;Flow Content&quot; in HTML5)</h3>
 					Begin on a new-line. May contain Inline elements.
 				<h3>b. Inline Elements (Roughly &quot;Phrasing Content&quot; in HTML5)</h3>
@@ -46,7 +64,8 @@
 					<span>*** Span 2: This comes inside Div 3 ***</span>
 					This line continues after Span 2.
 				</div>
-			<h2>4. <U>Semantic Tags:</U></h2>
+				<a href="#top">Back to TOP</a>
+			<h2 id = "Heading4">4. <U>Semantic Tags:</U></h2>
 				Humans and/or Machines can understand meaning of the content surrounded by a semantic element better.
 				<div>It may help in Search Engine Optimizations (SEO).</div>
 				<h3> Examples: </h3>
@@ -64,26 +83,77 @@
 						<article>* Article 4</article>
 					</section>
 					<aside><B>d. <U>Aside Tag:</U></B> Some information that relates to the main topic, i.e., related posts.</aside>
-				<h2>5. <U>Lists:</U></h2>
+					<a href="#top">Back to TOP</a>
+				<h2 id = "Heading5">5. <U>Lists:</U></h2>
 					<h3>a. Unordered List:</h3>
 					<div>
 						My PC Build Components are:
 						<ul>
-							<li>Cooler Master TD500 Mesh Cabinet</li>
-							<li>Corsair RMX 850 PSU</li>
+							<li>ROG Strix Helios RGB Cabinet</li>
+							<li>ASUS ROG THOR 850 watt PSU</li>
 							<li>Asus Rog Strix X570 ATX E-Gaming Motherboard</li>
 							<li>Motherboard Components:
 								<ul>
-									<li>AMD Ryzen 9 3900X Processor</li>
-									<li>Cooler Master ML360R ARGB Radiator</li>
+									<li>AMD Ryzen 9 3900XT Processor</li>
+									<li>ASUS ROG Ryujin 360mm AIO Coolerr</li>
 									<li>ASUS ROG Strix GeForce RTX 2070 Super Overclocked 8 GB GDDR6 Graphics Card</li>
-									<li>Corsair Vengeance RGB Pro 2x16 GB 3200 MHz DDR4 RAM</li>
-									<li>Sabrent Rocket 2 TB M.2 NVME SSD</li>
+									<li>Corsair Vengeance RGB Pro 2x16 GB 3200 MHz DDR4 RAM or, G-SKILL Trident Z Neo Series 3600 MHz 2x16 GB DDR4 RAM</li>
+									<li>Sabrent Rocket 1 TB PCIe 4.0 M.2 NVME SSD</li>
+									<li>Sabrent Rocket 500 GB PCIe 4.0 M.2 NVME SSD</li>
 								</ul>
 							</li>
-							<li>Other Storage Devices: Firecuda 2TB SSHD</li>
+							<li>Other Storage Devices: 
+								<ul>
+									<li>Barracuda 4TB 3.5 inch HDD</li>
+									<li>T-force Delta MAX 500 GB RGB SSD</li>
+								</ul>
+							</li>
 						</ul>
 					</div>
+					<h3>b. Ordered Lists:</h3>
+					<div>
+						Oreo cookie eating procedure:
+					    <ol>
+					      <li>Open box</li>
+					      <li>Take out cookie</li>
+					      <li>Make a Double Oreo
+					        <ol>
+					          <li>Peel off the top part</li>
+					          <li>Place another cookie in the middle</li>
+					          <li>Put back the top part</li>
+					        </ol>
+					      </li>
+					      <li>Enjoy!</li>
+					    </ol>
+					</div>
+					<a href="#top">Back to TOP</a>
+				<h2 id = "Heading6">6. <U>Character Entity Reference:</U> </h2>
+					<h3>Entities application</h3>
+					<div>
+						<ul>
+							<li>Before: Don't be afraid to be <then a 100% success & >more:</li>
+							<li>After:  Don't be afraid to be &lt;then a 100% success &amp; &gt;more</li>
+							<li>Less than: 	 		& lt; </li>
+							<li>Greater than: 		& gt; </li>
+							<li>Ampercent(&): 		& amp;</li>
+							<li>Non breaking space: & nbsp;</li>
+							<li>Quotes:				& quot;</li>
+						</ul>
+						<p>
+						  	&quot;It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory&nbsp;nor&nbsp;defeat.&quot;
+						</p>
+						<p>Theodor Roosevelt 1910 &copy; Copyright</p>
+					</div>
+					<a href="#top">Back to TOP</a>
+				<h2 id = "Heading7">7. <U>Creating LINKS:</U></h2>
+					<h3>a. Internal Links:</h3>
+						We can link to a file in the same directory as this HTML file like this:
+						<a href="hi.html" title="same dir link">Linking to a file in the same directory</a>
+   						<a href="hi.html" title="same dir link">
+   							<div> DIV Linking to a file in the same directory</div>
+   						</a>
+   					<h3>b. External Links:</h3>
+   				<a href="#top">Back to TOP</a>
 				<h2>That's all. Thanks for visiting.</h2>
 		<footer>Royalty Free Page by @AP</footer>
 </body>
