@@ -1,0 +1,9 @@
+
+p.brown	{ color: brown; font-size: 20px; }
+h1 		{ font-size: 56px; text-align: center; }
+header	{ text-align: center; }
+a 		{ text-decoration: none; }
+a:hover, a:active {
+	background-color: lightgrey;
+	color: brown;
+}
