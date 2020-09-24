@@ -1,4 +1,4 @@
-cd /d C:\Users\arpan\My-Coursera
+cd /d C:\My-Coursera
 git --version
 git add .
 git commit -m "My First Page"
