@@ -29,6 +29,7 @@ h1 {
 
 .box {
 	width: 100%;
+	height: 290px;
 }
 section {
 	border: 1px solid black;
