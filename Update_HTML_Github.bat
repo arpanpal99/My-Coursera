@@ -1,6 +1,6 @@
-cd /d C:\My-Coursera
+cd "C:\My-Coursera"
 git --version
 git add .
-git commit -m "My First Page"
+git commit -m "My Project Update"
 git push
 PAUSE
