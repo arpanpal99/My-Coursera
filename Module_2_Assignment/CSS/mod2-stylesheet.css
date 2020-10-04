@@ -10,12 +10,12 @@
 
 body {
 	margin: 30px;
-	background: url("Backgrounds/pgb.jpg");
+	background: url("C:/My-Coursera/Module_2_Assignment/Backgrounds/pgb.jpg");
   	background-size: 100%; 
 }
 
 h1 {
-  	background: url("Backgrounds/b1.jpg");
+  	background: url("C:/My-Coursera/Module_2_Assignment/Backgrounds/b1.jpg");
   	background-size: 100%;
   	padding: 20px;
   	border: 1px solid black;
@@ -49,17 +49,17 @@ section {
 	padding-right: 25px;
 }
 .p1 {
-	background: url("Backgrounds/b6.jpg");
+	background: url("C:/My-Coursera/Module_2_Assignment//Backgrounds/b2.jpg");
   	background-size: 180%;
   	line-height: 150%
 }
 .p2 {
-	background: url("Backgrounds/b2.jpg");
+	background: url("C:/My-Coursera/Module_2_Assignment//Backgrounds/b3.jpg");
   	background-size: 160%; 
   	line-height: 120%
 }
 .p3 {
-	background: url("Backgrounds/b3.jpg");
+	background: url("C:/My-Coursera/Module_2_Assignment//Backgrounds/b4.jpg");
   	background-size: 200%; 
   	line-height: 180%
 }
