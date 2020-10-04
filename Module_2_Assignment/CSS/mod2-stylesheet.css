@@ -10,7 +10,7 @@
 
 body {
 	margin: 30px;
-	background: url('pgb.jpg');
+	background: url('https://i.pinimg.com/originals/2d/21/3d/2d213d36f66c318754bd4b78ab9361f1.jpg') url('pbg.jpg');
   	background-size: 100%; 
 }
 
@@ -49,7 +49,7 @@ section {
 	padding-right: 25px;
 }
 .p1 {
-	background: url('b2.jpg') solid orange;
+	background: url('b2.jpg');
   	background-size: 180%;
   	line-height: 150%
 }
