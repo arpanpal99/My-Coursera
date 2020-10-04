@@ -1,2 +1,2 @@
-cd /d C:\My-Coursera\site
+cd /d C:\My-Coursera
 browser-sync start --server --directory --files "*"
