@@ -1,2 +1,3 @@
-cd /d C:\My-Coursera\mod2-solution
+cd "C:\My-Coursera"
+browser-sync --version
 browser-sync start --server --directory --files "*"
