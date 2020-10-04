@@ -49,7 +49,7 @@ section {
 	padding-right: 25px;
 }
 .p1 {
-	background: url('b2.jpg');
+	background: url('b2.jpg') solid orange;
   	background-size: 180%;
   	line-height: 150%
 }
