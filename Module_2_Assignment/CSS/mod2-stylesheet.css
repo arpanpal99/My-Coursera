@@ -9,13 +9,16 @@
 }
 
 body {
-	margin: 30px;
-	background: url('https://images.unsplash.com/photo-1559889030-ed610812ad63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+	margin: 40px 20px 20px 20px;
+	background-color: #0cbaba;
+	background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+	background: url('https://wallpaper-house.com/data/out/7/wallpaper2you_202166.jpg');
   	background-size: 100%; 
 }
 
 h1 {
-  	background: url('b1.jpg');
+  	background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+  	background: url('https://wallpaper-house.com/data/out/7/wallpaper2you_202156.jpg');
   	background-size: 100%;
   	padding: 20px;
   	border: 1px solid black;
@@ -49,18 +52,21 @@ section {
 	padding-right: 25px;
 }
 .p1 {
-	background: url('b2.jpg');
-  	background-size: 180%;
+	background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+	background: url('https://wallpaper-house.com/data/out/7/wallpaper2you_202187.jpg');
+  	background-size: 160%;
   	line-height: 150%
 }
 .p2 {
-	background: url('b3.jpg');
+	background: linear-gradient(to bottom, #ff9966 0%, #ffff66 100%);
+  	background: url('https://wallpaper-house.com/data/out/7/wallpaper2you_202191.png');
   	background-size: 160%; 
   	line-height: 120%
 }
 .p3 {
-	background: url('b4.jpg');
-  	background-size: 200%; 
+	background: linear-gradient(to bottom, #ff99ff 0%, #ff9933 100%);
+	background: url('https://wallpaper-house.com/data/out/7/wallpaper2you_202148.jpg');
+  	background-size: 160%; 
   	line-height: 180%
 }
 /************************************************************************************/
