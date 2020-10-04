@@ -164,6 +164,7 @@ section {
     width: 100%;
   }
   section.p3 {
+  	margin-top: 20px;
 	width: 96%;
   }
 }
