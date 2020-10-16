@@ -11,8 +11,11 @@ header .container {
   margin-left: 5px;
 }
 #header-nav-id {  /*header-container*/
-  background: url('../backgrounds/b1.jpg');
-  background-size: 250%;
+  /*background: url('../backgrounds/b1.jpg');*/
+  background: #fdc830; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fdc830, #f37335); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fdc830, #f37335); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
   border-radius: 0;
   border: 0;
   padding: 1.5%;
@@ -46,7 +49,7 @@ button.navbar-toggle { /* Header height at mobile device*/
   color: black;
 }
 #nav-list a:hover {
-  background: #FFA94D;
+  background: #FFD79E;
 }
 #nav-list a span {
   font-size: 1.2em;
@@ -67,9 +70,14 @@ h2 {
 	font-size: 40px;
 	color: black;
 	padding: 10px;
+	border: 1px solid black;
 }
 #menu {
-	background-color: orange;
+	background: #f46b45;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 	margin-right: 3.33%;
 	margin-left: 3.33%;
 }
