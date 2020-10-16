@@ -1,48 +1,168 @@
+
 body {
-  font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
-  font-family: 'Oxygen', sans-serif;
+  background-color: #0cbaba;
+  background: url('../backgrounds/pgb.jpg');
+  background-size: 100%; 
+  font-family: "Times New Roman", Times, serif;
 }
 
-/** HEADER **/
-#header-nav {
-  background-color: #f6b319;
+/*************************************** Header Container ***************************************/
+header .container {
+  margin-left: 5px;
+}
+#header-nav-id {  /*header-container*/
+  background: url('../backgrounds/b1.jpg');
+  background-size: 150%;
   border-radius: 0;
   border: 0;
+  padding: 1.5%;
 }
-
-#logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
-}
-
-.navbar-brand {
-  padding-top: 25px;
-}
-
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
+.navbar-brand h1 { /*brand name - Food, LLC*/
+  color: black;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: .75;
+  line-height: 1.3;
+  font-size: 40px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+  color: rgb(128,0,0);
 }
-.navbar-brand p { /* Kosher cert */
-  color: #000;
-  text-transform: uppercase;
-  font-size: .7em;
-  margin-top: 15px;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { 
+  border: 1px solid black; /* hr element */
 }
-.navbar-brand p span { /* Star-K */
-  vertical-align: middle;
+button.navbar-toggle { /* Header height at mobile device*/
+  margin: 21px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #FF9600;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+}
+#nav-list a:hover {
+  background: #FFA94D;
+}
+#nav-list a span {
+  font-size: 1.2em;
+  margin: 5px auto 5px 10px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: black;
+    border-top: 2px solid black;
+}
+@media (min-width: 768px) {
+  #collapsable-nav {
+    visibility: hidden;
+  }
+}
+/*************************************** Menu Heading ***************************************/
+h2 {
+	font-weight: bold;
+	font-size: 40px;
+	color: black;
+	padding: 10px;
+}
+#menu {
+	background-color: orange;
+	margin-right: 3.33%;
+	margin-left: 3.33%;
+}
+/*************************************** Main Container ***************************************/
+
+#main-content {
+	margin-top: 10px;
+	width: 96%;
+}
+.para {
+  padding: 20px;
+}
+section {
+  border: 1px solid black;
+  width: 100%;
+  margin: 10px auto 10px auto;
+  font-family: serif;
+  color: black;
+  overflow: hidden;
+}
+@media (min-width: 1200px) {
+	section {
+		height: 850px;
+	}
+	#hid {
+		position: absolute;
+		top: -5000px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	section {
+		height: 1050px;
+	}
+	#hid {
+		position: absolute;
+		top: -5000px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.p1, .p2 {
+		height: 900px;
+	}
+}
+#top {
+	font-size: 20px;
+	text-align: right;
+	text-decoration: none;
+}
+.hd {
+  width:30%;
+  height: 40px;
+  padding-top: 7px;
+  margin-left: 36%;
+  margin-bottom: 10px;
+  background-color: black;
+  text-align: center;
+  color:white;
+}
+
+/******* Background Images & Gradients **********/
+
+#chicken-exp {
+  background-color: #710A53;
+}
+#mutton-exp {
+  background-color: #0A1045;
+}
+#fried-rice-exp {
+  background-color: #603506;
+}
+
+.p1 {
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    /*background: url('../Backgrounds/b2.jpg');*/
+    background-size: 160%;
+    line-height: 150%
+}
+.p2 {
+    background: linear-gradient(to bottom, #ff9966 0%, #ffff66 100%);
+    /*background: url('../Backgrounds/b3.jpg');*/
+    background-size: 160%; 
+    line-height: 150%
+}
+.p3 {
+    background: linear-gradient(to bottom, #ff99ff 0%, #ff9933 100%);
+    /*background: url('../Backgrounds/b4.jpg');*/
+    background-size: 160%; 
+    line-height: 150%
+}
+@media (max-width: 767px) {
+	h2 {
+		font-size: 30px;
+		color: black;
+		padding: 10px;
+	}
 }
