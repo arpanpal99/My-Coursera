@@ -11,11 +11,11 @@ header .container {
   margin-left: 5px;
 }
 #header-nav-id {  /*header-container*/
-  /*background: url('../backgrounds/b1.jpg');*/
-  background: #fdc830; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fdc830, #f37335); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fdc830, #f37335); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: 100%;
+  background: url('../backgrounds/b1.jpg');
+  background-size: 350%;
+  /*background: #fdc830; 
+  background: -webkit-linear-gradient(to right, #fdc830, #f37335); 
+  background: linear-gradient(to right, #fdc830, #f37335); */
   border-radius: 0;
   border: 0;
   padding: 1.5%;
