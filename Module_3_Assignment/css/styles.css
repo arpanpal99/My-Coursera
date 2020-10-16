@@ -13,9 +13,6 @@ header .container {
 #header-nav-id {  /*header-container*/
   background: url('../backgrounds/b1.jpg');
   background-size: 350%;
-  /*background: #fdc830; 
-  background: -webkit-linear-gradient(to right, #fdc830, #f37335); 
-  background: linear-gradient(to right, #fdc830, #f37335); */
   border-radius: 0;
   border: 0;
   padding: 1.5%;
@@ -24,15 +21,16 @@ header .container {
   color: black;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 1.3;
+  line-height: 1.2;
   font-size: 40px;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
+h1:hover, h1:focus {
   text-decoration: none;
   color: rgb(128,0,0);
+  text-shadow: 1px 1px 1px white;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar { 
-  border: 1px solid black; /* hr element */
+  border: 1px solid black; 
 }
 button.navbar-toggle { /* Header height at mobile device*/
   margin: 21px;
@@ -57,7 +55,7 @@ button.navbar-toggle { /* Header height at mobile device*/
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: black;
-    border-top: 2px solid black;
+    border-top: 2px solid black;/* hr element */
 }
 @media (min-width: 768px) {
   #collapsable-nav {
@@ -74,10 +72,8 @@ h2 {
 }
 #menu {
 	background: #f46b45;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+  background: -webkit-linear-gradient(to left, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	margin-right: 3.33%;
 	margin-left: 3.33%;
 }
