@@ -2,7 +2,7 @@
 Coursera Test Repository
 
 My initial course was [Introduction to HTML5](https://www.coursera.org/learn/html)
-I have completed the course which gave me insights regarding the basics of HTML5.
+I have completed the course which gave me insights regarding the basics of HTML5.  
 Verify at [Coursera Certificate Verification page](https://www.coursera.org/account/accomplishments/verify/HJE4QKDYA5YZ)  
 
 
