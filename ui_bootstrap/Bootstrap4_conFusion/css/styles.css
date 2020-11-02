@@ -1,0 +1,17 @@
+.jumbotron {
+	color: floralwhite;
+	background-color: mediumpurple;
+}
+
+.footer {
+	padding: 40px;
+	background-color: #FFAAF0;
+}
+
+.row-content {
+	padding: 20px 0px 60px;
+}
+
+.copyright {
+	margin-top: 30px;
+}
