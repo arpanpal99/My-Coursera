@@ -1,0 +1,34 @@
+
+/************************************************ Background Images & Gradients *********************************************************/
+
+h1            	{ background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%); }
+
+body          	{ background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); }
+
+#html         	{ background-color: #710A53; }
+
+#css          	{ background-color: #0A1045; }
+
+#JavaScript   	{ background-color: #603506; }
+
+.section-header { color: floralwhite; }
+
+.p1           	{ background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); }
+
+.p2           	{ background: linear-gradient(to bottom, #ff99cc 0%, #ff9933 100%); }
+
+.p3           	{ background: linear-gradient(to bottom, #ff9933 0%, #ffff66 100%); }
+
+/*********************************************************** Borders *********************************************************************/
+
+#container 		{ border: 0px solid black; }
+
+#row 			{ border: 0px solid yellow; }
+
+.section-header { border: 0px solid green; }
+
+.para 			{ border: 0px solid red; }
+
+h1 				{ border: 1px solid black; }
+
+section 		{ border: 1px solid black; }
