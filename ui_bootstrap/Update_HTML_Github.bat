@@ -1,6 +1,6 @@
 cd "C:\My-Coursera"
 git --version
 git add .
-git commit -m "Assignment 2 Update"
+git commit -m "BOOTSTRAP WEEK 2 FINAL"
 git push
 PAUSE
