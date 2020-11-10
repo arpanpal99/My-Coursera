@@ -1,6 +1,6 @@
 cd "C:\My-Coursera"
 git --version
 git add .
-git commit -m "My Project Update"
+git commit -m "Assignment 2 Update"
 git push
 PAUSE
