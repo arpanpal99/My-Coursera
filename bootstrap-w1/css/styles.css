@@ -1,0 +1,20 @@
+.jumbotron {
+	color: floralwhite;
+	background-color: mediumpurple;
+	padding: 60px 20px;
+}
+
+.footer {
+	padding: 60px 0px 30px;
+	background-color: #FFAAF0;
+}
+
+.row-content {
+	padding: 20px 0px 40px;
+	border-bottom: 1px ridge;
+	min-height: 200px;
+}
+
+.copyright {
+	margin-top: 30px;
+}
