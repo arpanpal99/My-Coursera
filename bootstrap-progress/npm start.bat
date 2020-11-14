@@ -1,3 +1,4 @@
-cd "C:\My-Coursera\ui_bootstrap\Bootstrap4\conFusion"
+cd "C:\My-Coursera\bootstrap-progress"
+del debug.log
 node -v
 npm start

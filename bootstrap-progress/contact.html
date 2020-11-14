@@ -10,10 +10,10 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap-social.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="resources/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/bootstrap/bootstrap-social.css">
+    <link rel="stylesheet" href="resources/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="resources/css/styles.css">
     <title>Ristorante Con Fusion: Contact</title>
 </head>
 
@@ -23,7 +23,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span id="btn-top" class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto ml-3" href="index.html"><img src="img/logo.png" alt="logo" height="33" width="45" class="img-fluid"></a>
+            <a class="navbar-brand mr-auto ml-3" href="index.html"><img src="resources/img/logo.png" alt="logo" height="33" width="45" class="img-fluid"></a>
             <div class="collapse navbar-collapse text-center" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                         <li class="mt-2 mb-2 nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
@@ -31,9 +31,116 @@
                         <li class="mt-2 mb-2 nav-item"><a class="nav-link" href="./menu.html"><span class="fa fa-list fa-lg"></span> Menu</a></li>
                         <li class="mt-2 mb-2 nav-item active"><a class="nav-link" href="./contact.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
+                <span class="navbar-text">
+                    <a data-toggle="modal" data-target="#loginModal" href="#">
+                    <span class="fa fa-sign-in"></span> Login</a>
+                </span>
             </div>
         </div>
     </nav>
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row align-items-baseline">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm ml-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="reserve-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Reserve a Table </h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form accept-charset="utf-8">
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label">Number of Guests</label>
+                            <div class="form-check form-check-inline ml-2">
+                                <input class="form-check-input" type="radio" name="Radios1" id="Radios1" value="option1">
+                                <label class="form-check-label" for="Radios1">1 </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Radios2" id="Radios2" value="option2">
+                                <label class="form-check-label" for="Radios2">2 </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Radios3" id="Radios3" value="option3">
+                                <label class="form-check-label" for="Radios3">3 </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="Radios4" value="option4">
+                                <label class="form-check-label" for="Radios4">4 </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="Radios5" value="option5">
+                                <label class="form-check-label" for="Radios5">5 </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="Radios6" value="option6">
+                                <label class="form-check-label" for="Radios6">6 </label>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label">Section</label>
+                            <div class="btn-group btn-group-toggle col-12 col-lg-5" data-toggle="buttons">
+                                <label class="btn btn-success active">
+                                    <input type="radio" name="options" id="option7" autocomplete="off" checked> Non smoking                                    
+                                </label>
+                                <label class="btn btn-danger">
+                                    <input type="radio" name="options" id="option8" autocomplete="off"> Smoking
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label">Date &amp; Time</label>
+                            <div class="col-12 col-lg-4">
+                                <input type="text" class="form-control mb-1 mb-sm-0 bg-light" name="date-time-modal" id="date-modal" placeholder="Date">
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <input type="text" class="form-control bg-light" name="date-time-modal" id="time-modal" placeholder="Time">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="offset-md-3 col-md-6 mt-3">
+                                <a type="submit" class="btn btn-primary btn-sm" href="index.html"> Reserve </a>
+                                <a type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal"> Cancel </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -44,10 +151,10 @@
                 <div class="col-12 col-sm align-self-center">
                     <div class="row justify-content-between align-items-center">
                         <div class="col-12 col-sm-12 col-md-4 text-center logo mb-5 mb-md-0">
-                            <img src="img/logo.png" alt="Logo" >
+                            <img src="resources/img/logo.png" alt="Logo" >
                         </div>
                         <div class="col-12 col-sm-12 col-md-5 text-center">
-                            <button type="button" class="btn btn-warning reserve"><a class="text-dark font-weight-bold" href="index.html#goto-reserve" title="Reserve Table"> Reserve Table </a></button>
+                            <a role="button" class="font-weight-bold btn btn-block btn-warning nav-link" data-toggle="modal" data-target="#reserve-modal" title="" href="#"> Reserve Table </a>
                         </div>
                     </div>
                 </div>
@@ -205,9 +312,14 @@
         </div>
     </footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-    <script src="js/jquery.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="resources/js/jquery.slim.min.js"></script>
+    <script src="resources/js/popper.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 </body>
 
 </html>
