@@ -99,11 +99,21 @@ label:active, label:focus {
 		margin-left: 400px;
 	}
 }
-@media (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
 	.carousel-indicators {
 		margin-left: 370px;
 	}
 	#mycarousel p {
 		font-size: 0.7em;
+	}
+}
+@media (max-width: 768px) {
+	#logo {
+		padding-left: 25px;
+	}
+	#reserve {
+		margin-left: auto;
+		margin-right: auto;
+		width: 200px;
 	}
 }
