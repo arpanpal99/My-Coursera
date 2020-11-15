@@ -108,8 +108,8 @@ label:active, label:focus {
 	}
 }
 @media (max-width: 768px) {
-	#logo {
-		padding-left: 25px;
+	.logo {
+		padding-left: 35px;
 	}
 	#reserve {
 		margin-left: auto;
