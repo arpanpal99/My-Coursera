@@ -1,54 +1,114 @@
-.row-header {
-  margin: 0px auto;
-  padding: 0px 0px; }
+a:hover {
+  text-decoration: none; }
 
-.row-content {
-  margin: 0px auto;
-  padding: 50px 0px;
-  border-bottom: 1px ridge;
-  min-height: 400px; }
-
-.footer {
-  background-color: #D1C4E9;
-  margin: 0px auto;
-  padding: 20px 0px; }
-
-.jumbotron {
-  margin: 0px auto;
-  padding: 70px 30px;
-  background: #9575CD;
-  color: floralwhite; }
-
-address {
-  font-size: 80%;
-  margin: 0px;
-  color: #0f0f0f; }
-
-body {
-  padding: 50px 0px 0px 0px;
-  z-index: 0; }
-
-.navbar-dark {
-  background-color: #512DA8; }
-
-.tab-content {
+#bord {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  padding: 10px; }
+  padding: 20px;
+  margin: 0px 20px; }
+
+#approve {
+  margin-top: 1.7%; }
+
+label:active, label:focus {
+  text-decoration: underline !important; }
+
+body {
+  background-color: #F8E7FE; }
+
+nav {
+  min-height: 50px; }
+
+.navbar-dark {
+  background-color: #590693; }
+
+.modal-header {
+  background-color: #590693;
+  color: white; }
+
+.close {
+  color: #F8E7FE;
+  opacity: 0.7; }
+
+.modal-body {
+  background-color: #F8E7FE; }
+
+.form-check {
+  padding: 7px; }
 
 .carousel {
-  background: #512DA8; }
+  border: 1px solid;
+  background-color: #9100FF; }
   .carousel .carousel-item {
-    height: 300px; }
+    height: 265px; }
     .carousel .carousel-item img {
       position: absolute;
       top: 0;
       left: 0;
-      min-height: 300px; }
+      min-height: 265px; }
+    .carousel .carousel-item .carousel-caption {
+      margin-left: 260px; }
+  .carousel .carousel-control-prev {
+    margin-left: 270px; }
+  .carousel #carouselButton {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1; }
 
-#carouselButton {
-  right: 0px;
-  position: absolute;
-  bottom: 0px;
-  z-index: 1; }
+.tab-content {
+  height: 180px;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 20px 40px 20px 20px; }
+
+.jumbotron {
+  color: white;
+  background-color: mediumpurple;
+  padding: 120px 20px 60px; }
+
+.row-content {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0px 40px;
+  min-height: 200px; }
+
+#card {
+  width: 70%;
+  margin: 0px auto; }
+
+.table-responsive {
+  border: 1px solid; }
+
+.footer {
+  padding: 60px 0px 30px;
+  background-color: #CBAEFF; }
+
+.copyright {
+  margin-top: 30px; }
+
+@media (min-width: 1200px) {
+  .carousel-indicators {
+    margin-left: 430px; } }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #reserve {
+    width: 200px; }
+  .carousel-indicators {
+    margin-left: 400px; } }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .carousel-indicators {
+    margin-left: 370px; }
+  #mycarousel p {
+    font-size: 0.7em; } }
+
+@media (max-width: 768px) {
+  .logo {
+    padding-left: 35px; }
+  #reserve {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px; } }
